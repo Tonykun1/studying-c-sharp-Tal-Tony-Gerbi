@@ -12,6 +12,7 @@ namespace studying_c_sharp_Tal_Tony_Gerbi.task2
         {
             Console.WriteLine("Hi, I am class Level2.");
             Level3_1.RunMe();
+            Level3_2.RunMe();
         }
     }
 }
