@@ -1,9 +1,10 @@
 ﻿using studying_c_sharp_Tal_Tony_Gerbi.task2;
-
-internal class Program
+using studying_c_sharp_Tal_Tony_Gerbi.basic_objects;
+public class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        Level1.RunMe();
+        // Level1.RunMe();
+        TestBasicObject.Demo();
     }
 }
