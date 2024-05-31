@@ -11,7 +11,7 @@ namespace studying_c_sharp_Tal_Tony_Gerbi.conflicted
         public static void LifeConflict()
         {
             Console.WriteLine("this is new Conflict");
-            Console.WriteLine("TEST  at CONFLICT");
+            Console.WriteLine("TEST  CONFLICT");
         }
     }
 }
