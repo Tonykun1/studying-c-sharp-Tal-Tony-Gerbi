@@ -9,5 +9,8 @@ public class Program
         // TestBasicObject.Demo();
         ExchangeDemoHomeWork Demo= new ExchangeDemoHomeWork();
         Demo.Demo();
+
+
+        CteateObj.demo();
     }
 }
