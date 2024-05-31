@@ -7,10 +7,7 @@ public class Program
     {
         // Level1.RunMe();
         // TestBasicObject.Demo();
-        ExchangeDemoHomeWork Demo= new ExchangeDemoHomeWork();
-        Demo.Demo();
-
-
+        ExchangeDemoHomeWork.Demo();
         CteateObj.demo();
     }
 }

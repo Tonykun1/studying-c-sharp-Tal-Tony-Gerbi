@@ -27,7 +27,7 @@ namespace studying_c_sharp_Tal_Tony_Gerbi.basic_objects
         //close the day
         //Show details
         //get the percent change
-        public void Demo()
+        public static void Demo()
         {
             Stock apple = new Stock("Apple Inc.", "AAPL", "Technology", "NAS");
             Stock tsla = new Stock("Tesla, Inc.", "TSLA", "Automotive", "NSA");
