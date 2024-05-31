@@ -7,6 +7,5 @@ public class Program
     {
         Level1.RunMe();
         conflictFile.LifeConflict1();
-        conflictFile.LifeConflict();
     }
 }
