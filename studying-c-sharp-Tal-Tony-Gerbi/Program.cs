@@ -6,6 +6,6 @@ public class Program
     private static void Main(string[] args)
     {
         Level1.RunMe();
-        conflictFile.LifeConflict2();
+        conflictFile.LifeConflict();
     }
 }
