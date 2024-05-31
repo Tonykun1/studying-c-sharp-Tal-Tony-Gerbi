@@ -8,7 +8,7 @@ namespace studying_c_sharp_Tal_Tony_Gerbi.conflicted
 {
     internal class conflictFile
     {
-        public static void LifeConflict1()
+        public static void LifeConflict()
         {
             Console.WriteLine("this is new Conflict");
             Console.WriteLine("TEST  at CONFLICT");
