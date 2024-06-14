@@ -1,13 +1,14 @@
 ﻿using studying_c_sharp_Tal_Tony_Gerbi.task2;
 using studying_c_sharp_Tal_Tony_Gerbi.basic_objects;
-
+using studying_c_sharp_Tal_Tony_Gerbi.inheritance;
 public class Program
 {
     public static void Main(string[] args)
     {
         // Level1.RunMe();
         // TestBasicObject.Demo();
-        ExchangeDemoHomeWork.Demo();
-        CteateObj.demo();
+        //ExchangeDemoHomeWork.Demo();
+        //CteateObj.demo();
+        Demo_Inharitance.demo();
     }
 }
