@@ -10,9 +10,9 @@ namespace studying_c_sharp_Tal_Tony_Gerbi.inheritance
     {
         public static void demo()
         {
-           
-            Part part = new Part(2000, "ram", 250);
-            SystemOnPC sys = new SystemOnPC(2000, "Windows", "Avans", part);
+            PC pc = new PC("Asus ROG");
+            Part part = new Part("Asus ROG", "RAM", 250);
+            SystemOnPC sys = new SystemOnPC("Asus ROG", "Windows", "Avast", part);
             Console.WriteLine(sys.ToString());
         }
     }

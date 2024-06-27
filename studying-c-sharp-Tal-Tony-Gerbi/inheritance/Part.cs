@@ -10,15 +10,19 @@ namespace studying_c_sharp_Tal_Tony_Gerbi.inheritance
     {
         private string part;
         private double partPrice;
-        public Part(double price, string part,double partPrice) : base(price)
+
+        public Part(string model, string part, double partPrice) : base(model)
         {
             this.part = part;
             this.partPrice = partPrice;
         }
-
+        public string GetPart()
+        {
+            return part;
+        }
         public override string ToString()
         {
-            return $"the part is {part} and the price of ram is {partPrice}";
+            return $"{base.ToString()}, the part is {part} and the price is {partPrice}";
         }
     }
 }

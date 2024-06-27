@@ -8,21 +8,19 @@ namespace studying_c_sharp_Tal_Tony_Gerbi.inheritance
 {
     public class PC
     {
-
-        private double price;
-
-        public PC(double price)
+        private string model;
+        public PC(string model)
         {
-            this.price = price;
+            this.model = model;
         }
 
         public override string ToString()
         {
-            return $"price is {price}";
+            return $"model is {model}";
         }
-        public  double GetPrice()
+        public  string GetModel()
         {
-            return price;
+            return model;
         }
     }
 }

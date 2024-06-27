@@ -11,15 +11,17 @@ namespace studying_c_sharp_Tal_Tony_Gerbi.inheritance
         private string system;
         private string antiVirus;
         private Part part;
-        public SystemOnPC(double price,string system, string antiVirus, Part part) : base(price)
+
+        public SystemOnPC(string model, string system, string antiVirus, Part part) : base(model)
         {
             this.system = system;
             this.antiVirus = antiVirus;
             this.part = part;
         }
+
         public override string ToString()
         {
-            return $"{base.ToString()} with system {system} and antivirus {antiVirus} and part {part.ToString()}";
+            return $"{base.ToString()} with system {system}, antivirus {antiVirus}, and part {part}";
         }
     }
 }
