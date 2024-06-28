@@ -54,6 +54,10 @@ namespace studying_c_sharp_Tal_Tony_Gerbi.inheritance.Inheritance_new
             }
             this.maxSpeed = maxSpeed;
         }
+        public void DoPlain()
+        {
+            Console.WriteLine();
+        }
         public override void DisplayDetails()
         {
             base.DisplayDetails();
