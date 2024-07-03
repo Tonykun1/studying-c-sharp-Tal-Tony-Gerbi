@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace studying_c_sharp_Tal_Tony_Gerbi.task2
 {
-    internal class Level3_1
+    public class Level3_1
     {
         public static void RunMe()
         {

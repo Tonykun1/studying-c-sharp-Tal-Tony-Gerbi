@@ -1,11 +1,17 @@
 ﻿using studying_c_sharp_Tal_Tony_Gerbi.conflicted;
 using studying_c_sharp_Tal_Tony_Gerbi.task2;
-
+using studying_c_sharp_Tal_Tony_Gerbi.basic_objects;
+using studying_c_sharp_Tal_Tony_Gerbi.inheritance;
+using studying_c_sharp_Tal_Tony_Gerbi.inheritance.Inheritance_new;
 public class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        Level1.RunMe();
-        conflictFile.LifeConflict1();
+        // Level1.RunMe();
+        // TestBasicObject.Demo();
+        //ExchangeDemoHomeWork.Demo();
+        //CteateObj.demo();
+        //Demo_Inharitance.demo();
+        Demo.demo();
     }
 }
