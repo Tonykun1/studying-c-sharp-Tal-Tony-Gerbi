@@ -11,7 +11,7 @@ public class Program
         // TestBasicObject.Demo();
         //ExchangeDemoHomeWork.Demo();
         //CteateObj.demo();
-        //Demo_Inharitance.demo();
+        //DemoInharitance.demo();
         Demo.demo();
     }
 }

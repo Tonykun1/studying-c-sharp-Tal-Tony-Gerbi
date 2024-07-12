@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace studying_c_sharp_Tal_Tony_Gerbi.inheritance
 {
-    public class Demo_Inharitance
+    public class DemoInharitance
     {
         public static void demo()
         {

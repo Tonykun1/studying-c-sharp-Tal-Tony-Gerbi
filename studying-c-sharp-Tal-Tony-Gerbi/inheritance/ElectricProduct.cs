@@ -13,7 +13,7 @@ namespace studying_c_sharp_Tal_Tony_Gerbi.inheritance
         private int height;
         private int width;
         public double weight;
-
+        public static int serialNum;
         public ElectricProduct(string name, double watt, int height, int width, double weight)
         {
             this.name = name;
