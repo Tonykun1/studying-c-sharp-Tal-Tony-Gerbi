@@ -3,6 +3,9 @@ using studying_c_sharp_Tal_Tony_Gerbi.task2;
 using studying_c_sharp_Tal_Tony_Gerbi.basic_objects;
 using studying_c_sharp_Tal_Tony_Gerbi.inheritance;
 using studying_c_sharp_Tal_Tony_Gerbi.inheritance.Inheritance_new;
+using studying_c_sharp_Tal_Tony_Gerbi.List;
+using studying_c_sharp_Tal_Tony_Gerbi.Enum;
+
 public class Program
 {
     public static void Main(string[] args)
@@ -12,6 +15,8 @@ public class Program
         //ExchangeDemoHomeWork.Demo();
         //CteateObj.demo();
         //DemoInharitance.demo();
-        Demo.demo();
+        //Demo.demo();
+        AddList.Demo();
+        DemoEnum.Demo();
     }
 }
